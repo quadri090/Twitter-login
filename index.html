@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Twitter log-in clone</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='twitter-clone.css'>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Roboto&display=swap" rel="stylesheet">
+    <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body class="bg-slate-100">
+    <div class="w-full h-screen bg-white lg:rounded-xl m-auto lg:mt-10 lg:w-3/6 lg:h-5/6">
+        <div class="grid grid-cols-7 gap-1 w-full h-[44px] lg:mt-[20px]">
+            <div class=" w-[30px] h-[30px] m-2 flex hover:bg-slate-100 hover:rounded-3xl justify-start items-center hover:cursor-pointer">
+                <i class="fa fa-times px-2 pl-2.5 flex justify-center"></i>
+            </div>
+            <div class="col-start-4 col-end-8 col-span-3 flex justify-start items-center  h-[44px]">
+                <i class="fa fa-twitter fa-2x p-4 flex items-center" aria-hidden="true" style='color: rgb(0, 0, 255)'></i>
+            </div>
+        </div>
+        <div class=" flex w-full h-5/6 justify-center items-center mt-[80px] lg:mt-0">
+            <div class="flex justify-center flex-col">
+                <div class="header">
+                    <h1 class="flex text-[24px] font-semibold my-5 mr-5 text-left lg:text-[34px] lg:justify-center lg:font-bold">Sign in to Twitter</h1>
+                </div>
+                <div class="hidden justify-center lg:flex">
+                    <div class="flex flex-row w-[300px] h-[44px] rounded-3xl border border-solid border-slate-300 items-center space-x-24 hover:cursor-pointer hover:bg-slate-100">
+                        <div class="flex items-center">
+                            <div class="ml-[10px]">
+                                <img src="Hero.png" class="flex-initial space-x-2.5 w-[30px] h-[30px] py-[2px]"><img>
+                            </div>
+                            <div class="flex flex-col ml-[10px] text-[11px]">
+                                <p class="flex-initial font-bold mulish">Sign in as Quadri</p>
+                                <p class="flex-initial mulish">quadriple090@gmail.com</p>
+                            </div>
+                        </div>
+                            <div>
+                                <i class="fa fa-google flex-initial" aria-hidden="true"></i>
+                            </div>
+                    </div>
+                </div>
+                <div class="flex justify-center mt-[20px] lg:hidden hover:cursor-pointer ">
+                    <div class="flex w-[300px] h-[44px] items-center justify-center rounded-3xl border border-solid border-slate-300 hover:bg-slate-100">
+                        <i class="fa fa-google" aria-hidden="true"></i>
+                        <p class="p-2.5 mulish text-[13px]">Sign in with Google</p>
+                    </div>
+                </div>
+                <div class="flex justify-center mt-[20px] hover:cursor-pointer">
+                    <div class="flex w-[300px] h-[44px] items-center justify-center rounded-3xl border border-solid overflow-hdden hover:bg-slate-100">
+                        <i class="fa fa-apple " aria-hidden="true"></i>
+                        <p class="font-bold p-2.5 mulish">Sign in with Apple</p>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center text-slate-300 mt-[10px] w-full">
+                    <div class="flex items-center w-full">
+                        <!-- The left line -->
+                        <div class="flex-grow h-[1px] bg-slate-300"></div>
+
+                        <!-- Your text here -->
+                        <span class="flex-shrink text-lg text-slate-500 font-semibold mx-8">or</span>
+
+                        <!-- The right line -->
+                        <div class="flex-grow h-[1px] bg-slate-300"></div>
+                    </div>
+                </div>
+                <div class="flex justify-center mt-[10px]">
+                    <div class="flex w-[300px] h-[60px] rounded-sm border border-solid border-slate-300 text-[18px] px-[10px]">
+                        <input type="phone email text" placeholder="Phone, email, or username" class="w-[300px] outline-none">
+                    </div>
+                </div>
+                <div class="flex justify-center mt-[20px]">
+                    <div class="flex w-[300px] h-[44px] justify-center items-center rounded-3xl border border-solid border-slate-300 bg-black  hover:bg-zinc-700 hover:cursor-pointer">
+                        <p class="text-center p-2.5px font-bold text-slate-100 mulish">Next</p>
+                    </div>
+                </div>
+                <div class="flex justify-center mt-[20px]">
+                    <div class="flex w-[300px] h-[44px] items-center justify-center rounded-3xl border border-solid border-slate-300 hover:bg-slate-100 hover:cursor-pointer">
+                        <p class="font-bold p-2.5 mulish">Forgot password?</p>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center my-[30px]">
+                    <div class="flex w-[300px] h-[60px] text-center justify-start">
+                        <p class="text-center mulish">Don't have an account? <span class="text-blue-600"><a href="#">Sign up</a></span></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>  
+    </div>
+</html>
